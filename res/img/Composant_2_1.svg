@@ -1,0 +1,83 @@
+<svg id="Composant_2_1" data-name="Composant 2 – 1" xmlns="http://www.w3.org/2000/svg" width="1741.122" height="920.001" viewBox="0 0 1741.122 920.001">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #99d5ec;
+      }
+
+      .cls-2 {
+        fill: #fffcdb;
+      }
+
+      .cls-3 {
+        fill: #073750;
+      }
+
+      .cls-4 {
+        fill: #57a3c0;
+      }
+
+      .cls-5 {
+        fill: rgba(254,210,92,0.94);
+      }
+
+      .cls-6 {
+        fill: #fe8fb2;
+      }
+
+      .cls-7 {
+        fill: #83b0c1;
+      }
+
+      .cls-8 {
+        fill: #ffe082;
+      }
+
+      .cls-9 {
+        fill: #f4cf61;
+      }
+
+      .cls-10 {
+        fill: #fed463;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-1" width="230" height="230" transform="translate(1511.122 460)"/>
+  <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-2" width="230" height="230" transform="translate(1280 460)"/>
+  <path id="Soustraction_3" data-name="Soustraction 3" class="cls-3" d="M371.28-1847.1h-230v-230l230,230h0Z" transform="translate(1369.718 2537.096)"/>
+  <path id="Soustraction_4" data-name="Soustraction 4" class="cls-3" d="M102-2239H2v-.438c54.429-.463,98.9-45.125,99.13-99.561H102v100Z" transform="matrix(0.999, -0.035, 0.035, 0.999, 1502.417, 2933.42)"/>
+  <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-4" width="230" height="230" transform="translate(1511 690)"/>
+  <path id="Rectangle_3" data-name="Rectangle 3" class="cls-5" d="M230,0h0a0,0,0,0,1,0,0V0A230,230,0,0,1,0,230H0a0,0,0,0,1,0,0v0A230,230,0,0,1,230,0Z" transform="translate(1741 690) rotate(90)"/>
+  <rect id="Rectangle_2-2" data-name="Rectangle 2" class="cls-3" width="230" height="230" transform="translate(1281 690)"/>
+  <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-2" width="230" height="230" transform="translate(1051 460)"/>
+  <circle id="Ellipse_23" data-name="Ellipse 23" class="cls-3" cx="75" cy="75" r="75" transform="translate(1091 500)"/>
+  <rect id="Rectangle_30" data-name="Rectangle 30" class="cls-6" width="230" height="230" transform="translate(1281 690) rotate(90)"/>
+  <rect id="Rectangle_37" data-name="Rectangle 37" class="cls-7" width="230" height="230" transform="translate(821 690)"/>
+  <rect id="Rectangle_50" data-name="Rectangle 50" class="cls-6" width="230" height="230" transform="translate(821 690) rotate(-90)"/>
+  <path id="Rectangle_49" data-name="Rectangle 49" class="cls-3" d="M230,0h0a0,0,0,0,1,0,0V230a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A230,230,0,0,1,230,0Z" transform="translate(821 460)"/>
+  <path id="Rectangle_51" data-name="Rectangle 51" class="cls-4" d="M140,0h0a0,0,0,0,1,0,0V140a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A140,140,0,0,1,140,0Z" transform="translate(911 550)"/>
+  <rect id="Rectangle_2-3" data-name="Rectangle 2" class="cls-2" width="230" height="230" transform="translate(460 689.999) rotate(90)"/>
+  <path id="Soustraction_1" data-name="Soustraction 1" class="cls-3" d="M232-2109H2v-1.009C127.186-2111.074,229.465-2213.8,230-2339h2v230Z" transform="translate(-2 3028.999)"/>
+  <path id="Soustraction_2" data-name="Soustraction 2" class="cls-3" d="M371.28-1847.1h-230v-230l230,230h0Z" transform="translate(-1617.217 548.717) rotate(90)"/>
+  <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-7" width="230" height="230" transform="translate(1511 230)"/>
+  <path id="Rectangle_16" data-name="Rectangle 16" class="cls-1" d="M230,0h0a0,0,0,0,1,0,0V230a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A230,230,0,0,1,230,0Z" transform="translate(1741 230) rotate(90)"/>
+  <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-4" width="230" height="230" transform="translate(1281 230)"/>
+  <rect id="Rectangle_21" data-name="Rectangle 21" class="cls-8" width="230" height="230" transform="translate(1051 460) rotate(-90)"/>
+  <path id="Rectangle_22" data-name="Rectangle 22" class="cls-9" d="M230,0h0a0,0,0,0,1,0,0V230a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A230,230,0,0,1,230,0Z" transform="translate(1051 460) rotate(-90)"/>
+  <path id="Soustraction_5" data-name="Soustraction 5" class="cls-9" d="M371.28-1847.1h-230v-230l230,230h0Z" transform="translate(1139.718 2307.096)"/>
+  <rect id="Rectangle_23" data-name="Rectangle 23" class="cls-7" width="230" height="230" transform="translate(1741 230) rotate(180)"/>
+  <path id="Soustraction_6" data-name="Soustraction 6" class="cls-3" d="M371.28-1847.1h-230v-230l230,230h0Z" transform="translate(1882.282 -1846.596) rotate(180)"/>
+  <rect id="Rectangle_28" data-name="Rectangle 28" class="cls-4" width="230" height="230" transform="translate(1281)"/>
+  <path id="Rectangle_27" data-name="Rectangle 27" class="cls-3" d="M230,0h0a0,0,0,0,1,0,0V0A230,230,0,0,1,0,230H0a0,0,0,0,1,0,0v0A230,230,0,0,1,230,0Z" transform="translate(1281)"/>
+  <circle id="Ellipse_24" data-name="Ellipse 24" class="cls-2" cx="60" cy="60" r="60" transform="translate(1450 170)"/>
+  <rect id="Rectangle_35" data-name="Rectangle 35" class="cls-2" width="230" height="230" transform="translate(460 690)"/>
+  <path id="Rectangle_36" data-name="Rectangle 36" class="cls-5" d="M230,0h0a0,0,0,0,1,0,0V0A230,230,0,0,1,0,230H0a0,0,0,0,1,0,0v0A230,230,0,0,1,230,0Z" transform="translate(460 920) rotate(-90)"/>
+  <rect id="Rectangle_40" data-name="Rectangle 40" class="cls-8" width="131" height="460" transform="translate(690 460)"/>
+  <path id="Soustraction_10" data-name="Soustraction 10" class="cls-6" d="M371.28-1847.1h-230v-230l230,230h0Z" transform="translate(2537.096 831.282) rotate(-90)"/>
+  <path id="Soustraction_13" data-name="Soustraction 13" class="cls-4" d="M-1876-2124h-230l230-230h229.879L-1876-2124.122v.121Z" transform="translate(2336.5 2813.999)"/>
+  <path id="Rectangle_48" data-name="Rectangle 48" class="cls-10" d="M131,0h99a0,0,0,0,1,0,0V131a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A131,131,0,0,1,131,0Z" transform="translate(821 460) rotate(90)"/>
+  <path id="Soustraction_16" data-name="Soustraction 16" class="cls-2" d="M-1876-2125.5h-230l230-228.5h229.879L-1876-2125.62v.12Z" transform="translate(2698.122 2584.5)"/>
+  <path id="Rectangle_57" data-name="Rectangle 57" class="cls-8" d="M230,0h0a0,0,0,0,1,0,0V230a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A230,230,0,0,1,230,0Z" transform="translate(1051)"/>
+  <path id="Soustraction_18" data-name="Soustraction 18" class="cls-3" d="M371.48-1847.1h-230.2v-230l230.2,230h0Z" transform="translate(1193.282 -1157.096) rotate(180)"/>
+  <path id="Soustraction_19" data-name="Soustraction 19" class="cls-6" d="M371.28-1847.1h-230v-230l230,230h0Z" transform="translate(-567.096 548.718) rotate(90)"/>
+</svg>

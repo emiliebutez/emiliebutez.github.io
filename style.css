@@ -1,0 +1,421 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+  background-color: #ffffff80;
+}
+
+header .name {
+  color: #073750;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: Anton;
+  letter-spacing: 2px;
+}
+
+header img {
+  max-width: 45px;
+  max-height: 45px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #073750;
+}
+
+header ul li {
+  list-style: none;
+  font-size: 1.8em;
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #073750;
+  padding: 15px;
+}
+
+header ul li .text_link:hover {
+  background-color: #073750;
+  color: white;
+  border-radius: 8px;
+}
+
+#level {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 10vh;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.circle {
+  width: 3vh;
+  height: 3vh;
+  border-radius: 3vh 3vh 3vh 3vh;
+  background-color: #07375080;
+}
+
+.blue {
+  background-color: #073750 !important;
+}
+
+.content {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.content #geometric_design {
+  height: 80%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+#about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about h1 {
+  font-size: 5em;
+  padding-top: 5%;
+  font-family: Anton;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  color: #f4cf61;
+}
+
+#about .text_about {
+  background-color: #ffe082;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 40%;
+  border-radius: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+#about .text_about .quarter {
+  width: 100%;
+  height: 100%;
+  background-color: #f4cf61;
+  border-radius: 0 100% 0 0;
+  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#about .text_about .quarter p {
+  font-size: 1.3em;
+  max-width: 100%;
+  font-family: Open Sans;
+  text-align: center;
+}
+
+#about .text_about .quarter h2 {
+  font-size: 1,8em;
+  font-family: Open Sans;
+  text-align: center;
+}
+
+.grid_skills {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid_skills .skills {
+  margin: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.grid_skills img {
+  max-width: 60px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+#projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#projects h1 {
+  font-size: 5em;
+  padding-top: 5%;
+  font-family: Anton;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  color: #073750;
+}
+
+#projects .text_contact {
+  background-color: #57a3c0;
+  padding: 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 40%;
+  border-radius: 18px;
+}
+
+#projects .text_contact p {
+  font-size: 1.3em;
+}
+
+.grid_project {
+  display: -ms-grid;
+  display: grid;
+  background-color: #07375050;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+.grid_project .central {
+  -ms-grid-row-span: 2;
+      grid-row-end: span 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid_project .project {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid_project .project img {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid_project .project img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.projectDescription {
+  display: none;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+.project_content {
+  display: none;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.visible {
+  display: -ms-grid;
+  display: grid;
+}
+
+.left_part_project {
+  height: 100%;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  padding: 2em;
+  overflow-y: auto;
+}
+
+.left_part_project .git {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.left_part_project .git a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.3em;
+  text-decoration: none;
+  color: #073750;
+  font-weight: bold;
+  font-family: Open Sans;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+}
+
+.left_part_project .git a:hover {
+  -webkit-box-shadow: 0 0 0 2px #073750;
+          box-shadow: 0 0 0 2px #073750;
+}
+
+.left_part_project .git img {
+  width: 1.5em;
+}
+
+.left_part_project h2 {
+  font-size: 2.5em;
+  font-family: Anton;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #073750;
+}
+
+.left_part_project h3 {
+  font-size: 1.5em;
+  font-family: Open Sans;
+  color: #073750;
+}
+
+.left_part_project p {
+  font-family: Open Sans;
+  font-size: 1em;
+}
+
+.left_part_project ul li {
+  font-family: Open Sans;
+  font-size: 1em;
+}
+
+.right_part_project {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  overflow-y: auto;
+}
+
+.right_part_project img {
+  width: 100%;
+  margin-bottom: 1.5em;
+}
+
+.right_part_project img:nth-child(-1) {
+  margin-bottom: 0 !important;
+}
+
+.button_close {
+  position: absolute;
+  cursor: pointer;
+  right: 16px;
+  top: 16px;
+  z-index: 1000;
+}
+
+.pm {
+  padding: 3em;
+}
+
+.pm img {
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 8px 24px #ababab;
+          box-shadow: 4px 8px 24px #ababab;
+}
+/*# sourceMappingURL=style.css.map */

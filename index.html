@@ -1,0 +1,374 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Anton"/>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"/>
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/>
+
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="name">emilie butez</div>
+        <ul>
+            <li><a class="text_link" href="#home">Acceuil</a></li>
+            <li><a class="text_link" href="#about">A propos</a></li>
+            <li><a class="text_link" href="#projects">Projets</a></li>
+            <li><a href="https://github.com/emiliebutez" target="_blank"><img src="res/logo/github.svg" alt=""></a></li>
+        </ul>
+    </header>
+
+    <div class="content" id="home">
+        <img id="geometric_design" src="res/img/Composant_2_1.svg" alt="">
+    </div>
+    <div id="about" class="content">
+        <h1>a propos</h1>
+        <div class="text_about">
+            <div class="quarter">
+                <p>
+                    Je m'apppelle Emilie et je suis actuellement étudiante en L3 MIASHS parcours technologie de l'information à 
+                    l'université Toulouse 1 Capitole. 
+                    <br> 
+                    <br>
+                    J'ai acquis au fil de mes années à l'université des compétences en informatique ce qui m'a permis de 
+                    pouvoir réaliser des projets en base de données et en développement trouvable dans la section Projets.
+                </p>
+                <h2>Skills</h2>
+                <div class="grid_skills">
+                    <div class="skills">
+                        <img src="res/icons/python.png" alt="">
+                        <p>Python3</p>
+                    </div>
+                    <div class="skills">
+                        <img src="res/icons/html.png" alt="">
+                        <p>HTML5</p>
+                    </div>
+                    <div class="skills">
+                        <img src="res/icons/css.png" alt="">
+                        <p>CSS3</p>
+                    </div>
+                </div>
+                <div class="grid_skills">
+                    <div class="skills">
+                        <img src="res/icons/javascript.png" alt="">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skills">
+                        <img src="res/icons/access.png" alt="">
+                        <p>Access</p>
+                    </div>
+                    <div class="skills">
+                        <img src="res/icons/excel.png" alt="">
+                        <p>Excel/VBA</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div id="projects" class="content">
+        <h1>Projets</h1>
+        <div class="grid_project">
+            <div class="project"><img src="res/img/TicTacToe.png" onclick="showProject('projectTicTacToe')" alt=""></a></div>
+            <div class="project central"><img src="res/img/PauletMartin.png" onclick="showProject('projectPaulEtMartin')" alt=""></div>
+            <div class="project"><img src="res/img/bddPauletMartin.png" onclick="showProject('projectBddPaulEtMatin')" alt=""></div>
+            <div class="project"><img src="res/img/Tribu.png" onclick="showProject('projectTribu')" alt=""></div>
+            <div class="project"><img src="res/img/bddBrico.png" onclick="showProject('projectBddBrico')" alt=""></div>
+        </div>
+    </div>
+
+    <div id="popup" class="projectDescription">
+        <img src="res/icons/close_icon.svg" class="button_close" onclick="hideProject()" >
+        <div id="projectTicTacToe" class="project_content">
+            <div class="left_part_project" data-simplebar>
+                <div class="git">
+                    <a href="https://github.com/emiliebutez/Projet_TicTacToe" target="_blank">Voir sur GitHub <img src="res/logo/github.svg" alt=""></a>
+                </div>
+                <h2>Projet Tic-tac-Toe </h2>
+                <h3>Présentation du projet</h3>
+                <p>
+                    Ce projet est un projet universitaire réalisé dans le cadre d'une semaine bloquée où nous avions
+                    à résoudre deux problèmes classiques, celui-ci et le jeu des tribus.
+                    <br>
+                    Nous étions tous dans la section répartie en groupes de 5 personnes.
+                    <br>
+                    <br>
+                    Le contexte étant : "On considérera un problème de Tic-Tac-Toe de taille 4.  
+                    Formellement, cela nous donne une matrice carrée de taille 4,  
+                    initialement vide (que des zéros). Les joueurs doivent alors, chacun 
+                    à leur tour, choisir où jouer l’un de leurs symboles (respectivement 1 et −1) 
+                    pour être le premier à former l’un des motifs de victoire. Les motifs de victoire
+                    possibles sont les suivants : ligne horizontale de 4, ligne verticale de 4, diagonale de 4, 
+                    carré c'est-à-dire 4 symboles identiques formant un carré où que ce soit sur la grille."
+                    <br>
+                    <br>
+                    Nous devions donc établir la stratégie d'un des deux joueurs afin qu'il remporte la partie. Pour cela nous avions
+                    à compléter la fonction def myTicTacToe(grille, monSymbole). Notre algorithme devait remporter contre un joueur
+                    jouant aléatoirement et contre l'algorithme des autres groupes de la section.
+                </p>
+                <h3>Mon rôle</h3>
+                <p>
+                    Etablir la stratégie et l'implémenter.
+                    J'ai réalisé cette partie avec un deuxième membre de mon groupe. J'ai établi cette stratégie
+                    grâce à des ressources internet sur le minimax notamment Wikipédia. Enfin j'ai codé 
+                    l'algorithme avec ma camarade de projet.
+                </p>
+                <h3>Supports fournis</h3>
+                <p>
+                    Nous avions à disposition un squelette de l'application 
+                    préalablement réalisé et nous devions donc compléter
+                    les fonctions ou procédures que l'on nous a indiquées. 
+                    Plus exactement pour ce projet la fonction myTicTacToe était à remplir
+                    et tout ce qui se trouve en dessous de celle-ci nous a été fourni.
+                </p>
+                <h3>Technologies utilisées</h3>
+                <ul>
+                    <li>Python3</li>
+                    <li>Implémenté avec l'algorithme du minimax</li>
+                </ul>
+            </div>
+            <div class="right_part_project" data-simplebar>
+                <img src="res/galerieTicTacToe/codeTicTacToe.png" alt="">
+
+            </div>
+        </div>
+        <div id="projectTribu" class="projectDescription">
+            <div class="left_part_project" data-simplebar>
+                <div class="git">
+                    <a href="https://github.com/emiliebutez/Projet-Tribus" target="_blank">Voir sur GitHub <img src="res/logo/github.svg" alt=""></a>
+                </div>
+                <h2>Projet Jeu des tribus</h2>
+                <h3>Présentation du projet</h3>
+                <p>
+                    Ce projet est un projet universitaire réalisé dans le cadre d'une semaine bloquée où nous avions
+                    à résoudre deux problèmes classiques, celui-ci et un Tic-Tac-Toe 4x4.
+                    <br>
+                    Nous étions tous dans la section répartie en groupes de 5 personnes.
+                    <br>
+                    <br>
+                    Le contexte: "Ce problème consiste en une série de tournois 
+                    entre deux tribus. Il s’agit d’une variante du dilemme du prisonnier 
+                    basée sur des tribus partageant un terrain de chasse. Une manche représente 
+                    une période de temps durant laquelle deux tribus essaient de chasser le maximum
+                    de gibier. Lors d’une manche, différentes attitudes sont possibles pour une tribu 
+                    : coopération (C), la tribu tente de coopérer avec la tribu adverse c'est-à-dire pourchasser beaucoup
+                    de gibier puis le partager équitablement, trahison (T), la tribu fait semblant de coopérer
+                    avec la tribu adverse pour chasser beaucoup de gibier mais la trahit ensuite pour voler tout 
+                    ce qui a ́eté chassé et renonciation (R), la tribu ignore la tribu adverse pour chasser de son coté.
+                    <br>
+                    <br>
+                    Nous devions donc établir la stratégie d'une tribu afin qu'elle remporte le plus de gain possible. 
+                    Pour cela, nous avions à compléter la classe MyTribe(Tribe). Notre algorithme devait remporter 
+                    le maximum de points contre toutes les tribus adverses utilisant les algorithmes des autres groupes de la section.
+                    La tribu ayant remporté la somme de gain la plus élevée remportait le tournoi.
+                </p>
+                <h3>Mon rôle</h3>
+                <p>Implémenter la stratégie élaborée.</p>
+                <h3>Supports fournis</h3>
+                <p>
+                    Nous avions à disposition un squelette de l'application 
+                    préalablement réalisé et nous devions donc compléter
+                    les fonctions ou procédures que l'on nous a indiquées. 
+                    Plus exactement pour ce projet la classe MyTribe(Tribe) était à remplir
+                    et tout ce qui se trouve en dehors de cette classe nous a été fourni.
+                </p>
+                <h3>Technologies utilisées</h3>
+                <ul>
+                    <li>Python3</li>
+                </ul>
+            </div>
+            <div class="right_part_project" data-simplebar>
+                <img src="res/galerieTribu/codeTribu.png" alt="">
+            </div>
+        </div>
+        <div id="projectPaulEtMartin" class="projectDescription">
+            <div class="left_part_project" data-simplebar>
+                <div class="git">
+                    <a href="https://github.com/emiliebutez/Projet-Site-PaulEtMartin" target="_blank">Voir sur GitHub <img src="res/logo/github.svg" alt=""></a>
+                </div>
+                <h2>Projet Site internet Paul & Martin</h2>
+                <h3>Présentation du projet</h3>
+                <p> Ce projet est un projet universitaire réalisé dans un temps imparti où nous avions
+                    à livrer un système d'information composé d'une base de données, un tableau de bord, 
+                    Des rapports permettant au commercial de consulter les statistiques prévisionnelles pour 
+                    les cinq prochaines années et enfin un site internet.
+                    <br>
+                    Nous étions tous dans la section répartie en groupes de 5 ou 6 personnes.
+                    <br>
+                    <br>
+                    Le contexte: "La société Paul & Martin s'occupe de la fabrication
+                    et la vente d'écussons depuis 2009. La société compte quatre employé(e)s
+                    à son siège, une graphiste, une responsable du suivi commandes, un comptable
+                    et un responsable des relations client. Suite à l'arrivée d'une commerciale prévue 
+                    en mars 2020 la société souhaiterait mettre fin à la multiplication de fichiers
+                    Excel et l'utilisation d'outils disparates qui entraînent une perte d'informations
+                    et un manque de visibilité."
+                    <br>
+                    <br>
+                    Chaque groupe constituait une "micro-entreprise" prenant en charge l'objet de la mission.
+                    Nous avons appelé notre "micro-entreprise" MadGeeks.
+                </p>
+                <h3>Mon rôle</h3>
+                <p>
+                    Pour ce projet, nous nous sommes séparés les tachês. J'étais en charge de 
+                    concevoir le design et coder le site internet en plus d'exécuter d'autres tâches.
+                </p>
+                <h3>Supports fournis</h3>
+                <ul>
+                    <li>Logo de l'entreprise</li>
+                    <li>Fichier Excel</li>
+                    <li>Image de produit</li>
+                    <li>Texte de présenation</li>
+                </ul>
+                <h3>Technologies utilisées</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
+                    <li>AdobeXD</li>
+                </ul>
+            </div>
+            <div class="right_part_project pm" data-simplebar>
+                <img src="res/galeriePaulEtMartin/Screenshot_2021-04-19 Paul Martin.png" alt="">
+                <img src="res/galeriePaulEtMartin/Screenshot_2021-04-20 Paul Martin.png" alt="">
+                <img src="res/galeriePaulEtMartin/Screenshot_2021-04-20 Paul Martin(1).png" alt="">
+                <img src="res/galeriePaulEtMartin/Screenshot_2021-04-20 Paul Martin(2).png" alt="">
+                <img src="res/galeriePaulEtMartin/Screenshot_2021-04-20 Paul Martin(3).png" alt="">
+                <img src="res/galeriePaulEtMartin/Screenshot_2021-04-20 Paul Martin(4).png" alt="">
+            </div>
+        </div>
+        <div id="projectBddPaulEtMatin" class="projectDescription">
+            <div class="left_part_project" data-simplebar>
+                <div class="git">
+                    <a href="https://github.com/emiliebutez/Projet-Bdd-PaulEtMartin" target="_blank">Voir sur GitHub <img src="res/logo/github.svg" alt=""></a>
+                </div>
+                <h2>Projet Base de données Paul & Martin</h2>
+                <h3>Présentation du projet</h3>
+                <p>
+                    Ce projet est un projet universitaire réalisé dans un temps imparti où nous avions
+                    à livrer un système d'information composé d'une base de données, un tableau de bord, 
+                    des rapports permettant au commercial de consulter les statistiques prévisionnelles pour 
+                    les cinq prochaines années et enfin un site internet.
+                    <br>
+                    Nous étions tous dans la section répartie en groupes de 5 ou 6 personnes.
+                    <br>
+                    <br>
+                    Le contexte: "La société Paul & Martin s'occupe de la fabrication
+                    et la vente d'écussons depuis 2009. La société compte quatre employé(e)s
+                    à son siège, une graphiste, une responsable du suivi commandes, un comptable
+                    et un responsable des relations client. Suite à l'arrivée d'une commerciale prévue 
+                    en mars 2021 la société souhaiterait mettre fin à la multiplication de fichiers
+                    Excel et l'utilisation d'outils disparates qui entraînent une perte d'informations
+                    et un manque de visibilité."
+                    <br>
+                    <br>
+                    Chaque groupe constituait une "micro-entreprise" prenant en charge l'objet de la mission.
+                    Nous avons appelé notre "micro-entreprise" MadGeeks.
+                </p>
+                <h3>Mon rôle</h3>
+                <p>
+                    Concevoir le MCD, faire l'interface de la base de données et assister mes coéquipiers dans
+                    l'implantation des tables et requêtes.
+                </p>
+                <h3>Supports fournis</h3>
+                <ul>
+                    <li>Logo de l'entreprise</li>
+                    <li>Fichier Excel</li>
+                </ul>
+                <h3>Technologies utilisées</h3>
+                <ul>
+                    <li>Access</li>
+                    <li>SQL</li>
+                    <li>Looping</li>
+                </ul>
+            </div>
+            <div class="right_part_project pm" data-simplebar>
+                <img src="res/galerieBddPaulEtMartin/AcceuilBdd.png" alt="">
+                <img src="res/galerieBddPaulEtMartin/clients.PNG" alt="">
+                <img src="res/galerieBddPaulEtMartin/factures.PNG" alt="">
+                <img src="res/galerieBddPaulEtMartin/devis.PNG" alt="">
+                <img src="res/galerieBddPaulEtMartin/recherchedevis.PNG" alt="">
+                <img src="res/galerieBddPaulEtMartin/detailsfactures.PNG" alt="">
+            </div>
+        </div>
+        <div id="projectBddBrico" class="projectDescription">
+            <div class="left_part_project" data-simplebar>
+                <div class="git">
+                    <a href="https://github.com/emiliebutez/Projet-Bdd" target="_blank">Voir sur GitHub <img src="res/logo/github.svg" alt=""></a>
+                </div>
+                <h2>Projet Base de données</h2>
+                <h3>Présentation du projet</h3>
+                <p>
+                    Ce projet est un projet universitaire réalisé dans le cadre d'une semaine bloquée où nous avions
+                    à développer une application sur le logiciel Access.
+                    <br>
+                    Nous étions tous dans la section répartie en groupes de 2 personnes.
+                    <br>
+                    <br>
+                    Le contexte: "Dans cette seconde partie, nous vous proposons de développer une application reposant sur une BD
+                    relationnelle pour la société Brico-Plus. Cette BD est une version étendue de la première partie que
+                    vous avez rendue.""
+                    <br>
+                    <br>
+                    Chaque groupe devait choisir un nom différent de Brico-Plus.
+                    Nous avons appelé la société Brico'brac.
+                </p>
+                <h3>Mon rôle</h3>
+                <p>
+                    Au même titre que mon coéquipier j'ai implanté les tables définies à l’aide du SGBD Access,
+                    saisis les données adéquates dans cette BD, implanté les requêtes SQL répondant aux besoins
+                    émis, proposé deux requêtes complétant ces besoins et conçu et implanté un diagramme d’enchaînement 
+                    des écrans pour finaliser notre application.
+                </p>
+                <h3>Supports fournis</h3>
+                <ul>
+                    <li>Schéma entité/association</li>
+                </ul>
+                <h3>Technologies utilisées</h3>
+                <ul>
+                    <li>Access</li>
+                </ul>
+            </div>
+            <div class="right_part_project pm" data-simplebar>
+                <img src="res/galerieBddBrico/MenuBdd.png" alt="">
+                <img src="res/galerieBddBrico/employés.PNG" alt="">
+                <img src="res/galerieBddBrico/usines.PNG" alt="">
+                <img src="res/galerieBddBrico/produits.PNG" alt="">
+                <img src="res/galerieBddBrico/evolution_ventes.PNG" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let geometric_design = document.getElementById("geometric_design")
+        let shownProjectID = null
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            geometric_design.style.bottom = (-value * 1.1) + "px"
+        })
+
+        function hideProject() {
+            document.getElementById("popup").style.display = "none"
+            document.getElementById(shownProjectID).classList.remove('visible')
+            document.body.style.overflow = "auto"
+
+        }
+
+        function showProject(projectID) {
+            const popup = document.getElementById('popup')
+            const project = document.getElementById(projectID)
+            popup.style.display = 'inherit'
+            project.classList.add('visible')
+            shownProjectID = projectID
+            document.body.style.overflow = "hidden"
+        }
+    </script>
+</body>
+</html>
